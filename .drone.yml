@@ -10,15 +10,15 @@ publish:
     username: drone
     password: $$DOCKER_PASS
     email: $$DOCKER_EMAIL
-    repo: plugins/drone-aws-opsworks
+    repo: plugins/drone-opsworks
     when:
       branch: master
 
 plugin:
-  name: AWS OpsWorks
-  desc: Deploys or updates a project on AWS OpsWorks
+  name: OpsWorks
+  desc: Deploys or updates a project on OpsWorks
   type: deploy
-  image: plugins/drone-aws-opsworks
+  image: plugins/drone-opsworks
   labels:
     - aws
     - opsworks

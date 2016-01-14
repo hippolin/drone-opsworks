@@ -1,14 +1,14 @@
-# drone-aws-opsworks
+# drone-opsworks
 
-[![Build Status](http://beta.drone.io/api/badges/drone-plugins/drone-aws-opsworks/status.svg)](http://beta.drone.io/drone-plugins/drone-aws-opsworks)
-[![](https://badge.imagelayers.io/plugins/drone-aws-opsworks:latest.svg)](https://imagelayers.io/?images=plugins/drone-aws-opsworks:latest 'Get your own badge on imagelayers.io')
+[![Build Status](http://beta.drone.io/api/badges/drone-plugins/drone-opsworks/status.svg)](http://beta.drone.io/drone-plugins/drone-opsworks)
+[![](https://badge.imagelayers.io/plugins/drone-opsworks:latest.svg)](https://imagelayers.io/?images=plugins/drone-opsworks:latest 'Get your own badge on imagelayers.io')
 
 Drone plugin for deploying to AWS OpsWorks
 
 ## Usage
 
 ```sh
-./drone-aws-opsworks <<EOF
+./drone-opsworks <<EOF
 {
     "repo": {
         "clone_url": "git://github.com/drone/drone",
@@ -41,7 +41,7 @@ make deps build docker
 ### Example
 
 ```sh
-docker run -i plugins/drone-aws-opsworks <<EOF
+docker run -i plugins/drone-opsworks <<EOF
 {
     "repo": {
         "clone_url": "git://github.com/drone/drone",

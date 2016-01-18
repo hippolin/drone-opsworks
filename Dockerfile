@@ -1,4 +1,4 @@
-# Docker image for the Drone Opsworks plugin
+# Docker image for the Drone AWS Opsworks plugin
 #
 #     cd $GOPATH/src/github.com/drone-plugins/drone-opsworks
 #     make deps build docker

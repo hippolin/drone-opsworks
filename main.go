@@ -13,11 +13,11 @@ import (
 )
 
 var (
-	buildDate string
+	buildCommit string
 )
 
 func main() {
-	fmt.Printf("Drone AWS OpsWorks Plugin built at %s\n", buildDate)
+	fmt.Printf("Drone AWS OpsWorks Plugin built from %s\n", buildCommit)
 
 	repo := drone.Repo{}
 	build := drone.Build{}

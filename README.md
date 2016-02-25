@@ -4,7 +4,7 @@
 [![Coverage Status](https://aircover.co/badges/drone-plugins/drone-opsworks/coverage.svg)](https://aircover.co/drone-plugins/drone-opsworks)
 [![](https://badge.imagelayers.io/plugins/drone-opsworks:latest.svg)](https://imagelayers.io/?images=plugins/drone-opsworks:latest 'Get your own badge on imagelayers.io')
 
-Drone plugin to deploy or update a project on AWS OpsWorks
+Drone plugin to deploy or update a project on AWS OpsWorks. For the usage information and a listing of the available options please take a look at [the docs](DOCS.md).
 
 ## Binary
 
